@@ -26,8 +26,8 @@
   <widget class="QPushButton" name="pb10">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>90</y>
+     <x>60</x>
+     <y>100</y>
      <width>89</width>
      <height>25</height>
     </rect>
@@ -39,8 +39,8 @@
   <widget class="QPushButton" name="pb50">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>120</y>
+     <x>60</x>
+     <y>130</y>
      <width>89</width>
      <height>25</height>
     </rect>
@@ -52,8 +52,8 @@
   <widget class="QPushButton" name="pb100">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>150</y>
+     <x>60</x>
+     <y>160</y>
      <width>89</width>
      <height>25</height>
     </rect>
@@ -65,8 +65,8 @@
   <widget class="QPushButton" name="pb500">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>180</y>
+     <x>60</x>
+     <y>190</y>
      <width>89</width>
      <height>25</height>
     </rect>
@@ -77,12 +77,12 @@
   </widget>
   <widget class="QPushButton" name="pbCoffee">
    <property name="enabled">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>100</y>
+     <x>240</x>
+     <y>110</y>
      <width>89</width>
      <height>25</height>
     </rect>
@@ -92,10 +92,13 @@
    </property>
   </widget>
   <widget class="QPushButton" name="pbTea">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>140</y>
+     <x>240</x>
+     <y>150</y>
      <width>89</width>
      <height>25</height>
     </rect>
@@ -105,16 +108,32 @@
    </property>
   </widget>
   <widget class="QPushButton" name="pbCass">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>180</y>
+     <x>240</x>
+     <y>190</y>
      <width>89</width>
      <height>25</height>
     </rect>
    </property>
    <property name="text">
     <string>박카스(200)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbChange">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>250</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>거스름돈 반환</string>
    </property>
   </widget>
  </widget>

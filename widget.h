@@ -17,6 +17,9 @@ public:
 
     void changeMoney(int n);
     int money{0};
+    void ckMoney();
+    void Change();
+    int ten{0}, fifty{0}, hund{0}, fhund{0};
 
 private slots:
     void on_pb10_clicked();
@@ -32,6 +35,8 @@ private slots:
     void on_pbTea_clicked();
 
     void on_pbCass_clicked();
+
+    void on_pbChange_clicked();
 
 private:
     Ui::Widget *ui;
