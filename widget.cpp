@@ -94,4 +94,6 @@ void Widget::on_pbChange_clicked()
     Change();
     QString change = QString("10원 : %1개\n50원 : %2개\n100원 : %3개\n500원 : %4개\n").arg(ten).arg(fifty).arg(hund).arg(fhund);
     msg.information(nullptr, "거스름돈", change);
+    money = 0;
+    changeMoney(money);
 }
